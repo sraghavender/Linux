@@ -46,6 +46,9 @@ write -2
 excute -1
 none permissions -0
 
+#>> operator is the append redirection operator
+history >>history.txt
+
 #navigate directories
 cd - switches your current working directory back to the previous directory you were in and prints its path.
 cd ~/ appends home directory
